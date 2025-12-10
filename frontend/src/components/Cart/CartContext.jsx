@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiDeleteBin3Line } from 'react-icons/ri'
 
 const CartContext = () => {
 
@@ -53,10 +54,11 @@ const CartContext = () => {
                 
                 </div>
 
-                <div className=''>
+                <div className=''> 
                     <p>${product.price.toLocaleString()}</p>
+
                     <button>
-                         
+                            <RiDeleteBin3Line className='h-6 w-6 mt-2 ml-1 text-red-600'/>
                     </button>
                 </div>
 

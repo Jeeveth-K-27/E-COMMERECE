@@ -36,7 +36,7 @@ const SearchBar = () => {
         </form>
       ) : (
         <button onClick={handleSearchToggle}>
-          <HiMiniMagnifyingGlass className="h-6 w-6" />
+          <HiMiniMagnifyingGlass className="h-6 w-6 text-gray-600" />
         </button>
       )}
     </div>
